@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HolidayComponent } from './services/holiday/holiday.component';
 import { CountryComponent } from './services/country/country.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
