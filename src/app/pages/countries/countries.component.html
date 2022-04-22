@@ -1,1 +1,4 @@
-<p>countries works!</p>
+<div *ngFor="let i of countries">
+  <mat-option value="{{i.country_name}}">{{i.total_holidays}</mat-option>
+</div>
+
