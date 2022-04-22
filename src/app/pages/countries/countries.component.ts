@@ -19,7 +19,7 @@ countries:Country[]=[]
 
   getAllCountries(){
 this.getCountries.get().subscribe(data=>{
-  this.countries=data;
+  this.countries=data.response.countries;
 
 })
   }

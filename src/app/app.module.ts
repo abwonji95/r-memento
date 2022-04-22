@@ -13,6 +13,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { CountriesComponent } from './pages/countries/countries.component';
 import { HolidayTodayComponent } from './pages/holiday-today/holiday-today.component';
 import { YearComponent } from './pages/year/year.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { YearComponent } from './pages/year/year.component';
     AngularMaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
