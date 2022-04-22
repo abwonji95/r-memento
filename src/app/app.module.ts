@@ -12,6 +12,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AngularMaterialModule } from './modules/angular-material/angular-material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CountriesComponent } from './pages/countries/countries.component';
+import { HolidayTodayComponent } from './pages/holiday-today/holiday-today.component';
+import { YearComponent } from './pages/year/year.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NavbarComponent,
     HomeComponent,
     HolidayComponent,
-    CountryComponent
+    CountryComponent,
+    CountriesComponent,
+    HolidayTodayComponent,
+    YearComponent
   ],
   imports: [
     BrowserModule,
