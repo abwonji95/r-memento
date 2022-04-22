@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class HolidayTodayService {
 
-  private apiUrl='https://calendarific.com/api/v2/holidays?&api_key=dc230fd7bbc5203608f674becd9ff567320bf536&country=IN&year=2022'
+  private apiUrl='https://calendarific.com/api/v2/holidays?&api_key=dc230fd7bbc5203608f674becd9ff567320bf536&country=ke&year=2022'
 
   constructor(private http:HttpClient) { }
 

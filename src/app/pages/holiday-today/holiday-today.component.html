@@ -1,1 +1,6 @@
-<p>holiday-today works!</p>
+ holidays
+<div *ngFor="let i of holidays">
+
+  {{i.name}} =>{{i.date.iso}} =>  {{i.description}}=> {{i.country.name}}
+  <hr>
+</div>
