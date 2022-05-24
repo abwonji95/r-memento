@@ -18,7 +18,7 @@ export class HolidayTodayComponent implements OnInit {
   getAllCountries(){
     this.holiday.get().subscribe(data=>{
     console.log(data.response.holidays);
-    console.log("data");
+    console.log(data.response.countries);
     this.holidays=data.response.holidays;
 
     })}
