@@ -600,8 +600,11 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  border-radius: 2.5rem;
+  border-color: #ffc720;
+  border-style: dotted;
+  position:sticky;
 }
 
 .img-thumbnail {
