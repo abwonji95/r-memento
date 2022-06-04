@@ -4,7 +4,7 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-typography{
   background-color: black;
-  color:#fff;
+  color: #ffc720;
 }
 img{
   width:fit-content;
