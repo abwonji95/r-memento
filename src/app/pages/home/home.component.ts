@@ -10,8 +10,8 @@ import { YearService } from 'src/app/services/year.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  countries:any[]=[];
-  holidays:any[]=[];
+  countries:any;
+  holiday:[]=[];
   form=FormGroup;
   select_country=FormControl
   data_today=FormControl
@@ -21,8 +21,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.Countryservice.get().subscribe((country)=>{this.countries=country})
-    this.holidayToday.get().subscribe((holiday)=>{this.holidays=holiday})
-
+    this.holidayToday.get().subscribe((holiday)=>{this.holiday=holiday.response.holidays})
+console.log(this.countries)
+console.log(this.holiday)
   }
 
 }
