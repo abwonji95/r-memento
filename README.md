@@ -1,4 +1,7 @@
 # RMemento
+Front-end application with angular . The web applicatin is primary set to display holidays in any country selected by the user 
+filtered with day and region.
+Future implimentation my include integration with travel , movies , Events ..etc
 
 # Developer 
 
