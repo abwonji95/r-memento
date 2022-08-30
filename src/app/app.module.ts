@@ -14,6 +14,9 @@ import { CountriesComponent } from './pages/countries/countries.component';
 import { HolidayTodayComponent } from './pages/holiday-today/holiday-today.component';
 import { YearComponent } from './pages/year/year.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactFormComponent } from './pages/contact-form/contact-form.component';
+import { EventsComponent } from './pages/events/events.component';
+import { ShowsComponent } from './pages/shows/shows.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     CountriesComponent,
     HolidayTodayComponent,
-    YearComponent
+    YearComponent,
+    ContactFormComponent,
+    EventsComponent,
+    ShowsComponent
   ],
   imports: [
     BrowserModule,
