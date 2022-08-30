@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 
 export class CountriesService {
-  private apiUrl='https://calendarific.com/api/v2/countries?&api_key=dc230fd7bbc5203608f674becd9ff567320bf536'
+  private apiUrl='https://restcountries.com/v2/all'
 
   constructor(private http:HttpClient) { }
 
