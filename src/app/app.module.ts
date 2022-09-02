@@ -19,6 +19,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SectionIComponent } from './components/section-i/section-i.component';
 import { SectionIiComponent } from './components/section-ii/section-ii.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CopyrightComponent } from './components/copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { SectionIiComponent } from './components/section-ii/section-ii.component
     ShowsComponent,
     HeaderComponent,
     SectionIComponent,
-    SectionIiComponent
+    SectionIiComponent,
+    FooterComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,

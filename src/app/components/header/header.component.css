@@ -9,4 +9,15 @@
     padding-top: 5rem;
     background-attachment: fixed;
     background-color: #E3E7EAff;
+    color: #92472Dff;
+}
+
+button {
+    background-color: #1A2E2Fff;
+    color: #E3E7EAff;
+}
+
+img {
+    padding-top: 3rem;
+    float: right;
 }
