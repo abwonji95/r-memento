@@ -1,0 +1,23 @@
+.footer {
+    --champagne-pink: #FEE7DCff;
+    --champagne-pink-2: #F1D6CBff;
+    --chestnut: #92472Dff;
+    --charleston-green: #1A2E2Fff;
+    --viridian-green: #409099ff;
+    --isabelline: #F9F2EFff;
+    --gainsboro: #E3E7EAff;
+    padding-top: 5rem;
+    background-attachment: fixed;
+    background-color: var(--champagne-pink);
+    color: var(--charleston-green);
+}
+
+button {
+    background-color: var(--champagne-pink);
+    color: var(--charleston-green);
+}
+
+img {
+    padding-top: 3rem;
+    float: right;
+}
