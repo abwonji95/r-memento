@@ -17,6 +17,8 @@ import { EventsComponent } from './pages/events/events.component';
 import { ShowsComponent } from './pages/shows/shows.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { SectionIComponent } from './components/section-i/section-i.component';
+import { SectionIiComponent } from './components/section-ii/section-ii.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { HeaderComponent } from './components/header/header.component';
     ContactFormComponent,
     EventsComponent,
     ShowsComponent,
-    HeaderComponent
+    HeaderComponent,
+    SectionIComponent,
+    SectionIiComponent
   ],
   imports: [
     BrowserModule,

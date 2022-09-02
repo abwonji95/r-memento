@@ -1,0 +1,12 @@
+.masthead {
+    --champagne-pink: #FEE7DCff;
+    --champagne-pink-2: #F1D6CBff;
+    --chestnut: #92472Dff;
+    --charleston-green: #1A2E2Fff;
+    --viridian-green: #409099ff;
+    --isabelline: #F9F2EFff;
+    --gainsboro: #E3E7EAff;
+    padding-top: 5rem;
+    background-attachment: fixed;
+    background-color: #E3E7EAff;
+}
