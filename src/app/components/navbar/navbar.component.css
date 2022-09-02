@@ -1,0 +1,44 @@
+.navbar {
+    --champagne-pink: #FEE7DCff;
+    --champagne-pink-2: #F1D6CBff;
+    --chestnut: #92472Dff;
+    --charleston-green: #1A2E2Fff;
+    --viridian-green: #409099ff;
+    --isabelline: #F9F2EFff;
+    --gainsboro: #E3E7EAff;
+    background-color: #409099ff;
+    color: #F1D6CBff;
+    height: 5rem;
+}
+
+.navbar-brand {
+    color: #F1D6CBff;
+}
+
+.search {
+    color: #1A2E2Fff;
+    background-color: #fff;
+    border: #92472Dff;
+    border-radius: 0.75rem;
+}
+
+.example-full-width {
+    border: 0vw;
+    height: 1rem;
+}
+
+.rounded {
+    color: #F1D6CBff;
+}
+
+.mat-form-field input {
+    width: 90px;
+    transition: width ease-in-out 400ms;
+    color: #1A2E2Fff;
+}
+
+.mat-form-field input:focus {
+    background-color: #fff !important;
+    width: 10rem;
+    transition: width ease-in 400ms;
+}

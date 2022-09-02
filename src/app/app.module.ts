@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -17,6 +16,7 @@ import { ContactFormComponent } from './pages/contact-form/contact-form.componen
 import { EventsComponent } from './pages/events/events.component';
 import { ShowsComponent } from './pages/shows/shows.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     YearComponent,
     ContactFormComponent,
     EventsComponent,
-    ShowsComponent
+    ShowsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

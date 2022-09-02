@@ -1,18 +1,12 @@
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg  text-uppercase fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="#page-top">R-memento</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
 
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><button mat-button [matMenuTriggerFor]="menu"><a class="nav-link py-3 px-0 px-lg-3 rounded">Select Country</a></button>
-                    <mat-menu #menu="matMenu">
-                        <button mat-menu-item>Item 1</button>
-                        <button mat-menu-item>Item 2</button>
-                    </mat-menu>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <form class="example-form">
+            <ul class="navbar-nav ms-auto row">
+                <li class="nav-item mx-0 mx-lg-1 col">
+                    <form class="example-form search">
                         <mat-form-field class="example-full-width" appearance="fill">
                             <mat-label class="example-full-width">Select Country</mat-label>
                             <input type="text" placeholder="Pick one" aria-label="Number" matInput const [formControl]="myControl" [matAutocomplete]="auto" class="example-full-width">
@@ -24,22 +18,7 @@
                         </mat-form-field>
                     </form>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded">
-
-                        <mat-form-field class="example-full-width" appearance="fill">
-                            <mat-label>Choose a date</mat-label>
-                            <input matInput const [matDatepicker]="picker">
-                            <mat-hint>MM/DD/YYYY</mat-hint>
-                            <mat-datepicker #picker></mat-datepicker>
-                        </mat-form-field>
-                        <button mat-button (click)="picker.open()">Select Date</button>
-
-
-
-                    </a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" routerLink="/holiday-today">Holiday Today</a></li>
+                <li class="nav-item mx-0 mx-lg-1 col"><a class="nav-link py-3 px-0 px-lg-3 rounded" routerLink="/holiday-today">Holiday Today</a></li>
             </ul>
         </div>
     </div>
