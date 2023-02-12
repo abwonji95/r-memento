@@ -3,6 +3,8 @@ Front-end application with angular . The web applicatin is primary set to displa
 filtered with day and region.
 Future implimentation my include integration with travel , movies , Events ..etc
 
+great start development
+
 # Developer 
 
 [Wallace Abuonji](https://github.com/abwonji95)
